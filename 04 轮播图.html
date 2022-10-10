@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>模态框</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+
+  </head>
+  <body>
+    
+    <div class="row">
+      <div class="col-md-4 col-md-offset-4">
+        <!-- 轮播区域  data-interval="3000" 3s切换一次轮播  默认是5s -->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="3000">
+      <!-- 轮播点-->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+    
+      <!-- 轮播区域内容  图片 -->
+      <div class="carousel-inner" role="listbox">
+        <!-- item 轮播区域的每一屏 -->
+        <div class="item active">
+          <img src="./images/banner.png" alt="...">
+          <!-- 轮播图当前的图片上的问题介绍说明 -->
+          <div class="carousel-caption">
+            第一个图片介绍
+          </div>
+        </div>
+        <div class="item">
+          <img src="./images/banner.png" alt="...">
+          <div class="carousel-caption">
+           第二个图片信息
+          </div>
+        </div>
+        <div class="item">
+          <img src="./images/banner.png" alt="...">
+          <div class="carousel-caption">
+           第三个图片信息
+          </div>
+        </div>
+      </div>
+    
+      <!-- 轮播图左右按钮 下一页 上一页 -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">上一个</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">下一个</span>
+      </a>
+    </div>
+      </div>
+    </div>
+    
+    <script src="https://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>

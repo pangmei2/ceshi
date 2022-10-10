@@ -1,0 +1,9 @@
+@media (min-width: 768px){
+.navbar {
+    border-radius: 0;
+    min-height: 40px;
+}
+.nav>li>a{
+    padding: 10px 14px;
+}
+}
